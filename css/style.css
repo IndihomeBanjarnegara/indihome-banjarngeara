@@ -1,4 +1,4 @@
-/*-------------------------------------------------------------------------------------- 
+s/*-------------------------------------------------------------------------------------- 
 	Theme Name: Chamb - Responsive E-commerce HTML5 Template 
 ---------------------------------------------------------------------------------------- 
     
@@ -436,16 +436,16 @@ header .navbar-default .navbar-header {
 
 .main-product {
 	background-color: #09284b;
-	background-image: url('../images/bg_main.jpg');
+	background-image: url('../images/bg_main.png');
 	padding-bottom: 180px;
 	background-position: center center;
 }
 
 .find-box {
-	max-width: 780px;
+	max-width: 400px;
 	margin: 0 auto;
 	width: 100%;
-	padding: 92px 0px 75px 0px;
+	padding: 30px 0px 30px 0px;
 }
 
 .find-box h1 {
@@ -600,13 +600,11 @@ header .navbar-default .navbar-header {
 }
 
 .box-img {
-	background: #3e444a;
+	background: #3e444a00;
 	text-align: center;
-	padding-bottom: 30px;
-	min-height: 280px;
 	margin-bottom: 30px;
+	margin-top: 20px;
 	position: relative;
-	border-bottom: solid #bdbdbd 2px;
 	transition: ease all 0.5s;
 }
 
@@ -614,8 +612,6 @@ header .navbar-default .navbar-header {
 
 .box-img h4 {
 	color: #fff;
-	padding-top: 35px;
-	padding-bottom: 30px;
 	font-size: 25px;
 	font-weight: 500;
 	transition: all 0.3s ease 0s;
@@ -625,7 +621,7 @@ header .navbar-default .navbar-header {
 .box-img:hover {
 	cursor: pointer;
 	transform: scale(1.1);
-	background: #bdbdbd;
+	background: #bf170b;
 }
 
 .food {
@@ -676,6 +672,8 @@ header .navbar-default .navbar-header {
 
 .cat-main-box .panel .icon-small {
 	margin-bottom: 15px;
+	width: 100px;
+	height: 100px;
 }
 
 .cat-main-box .panel h4 {
@@ -708,9 +706,15 @@ header .navbar-default .navbar-header {
 }
 
 .exciting_box .icon-small {
-	margin-bottom: 35px;
-	margin-top: 26px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	height: 100px;
+	padding-bottom: 10px
 }
+
 
 .exciting_box {
 	position: relative;
@@ -725,6 +729,7 @@ header .navbar-default .navbar-header {
 }
 
 .exciting_box p {
+	text-align: justify;
 	font-size: 16px;
 	color: #455a65;
 	margin: 0px;
@@ -780,10 +785,10 @@ header .navbar-default .navbar-header {
 }
 
 .left-a-f h3 {
+	text-align: right;
 	color: #09294c;
 	font-size: 20px;
 	font-weight: 700;
-	padding-right: 82px;
 	line-height: 32px;
 }
 
@@ -791,20 +796,20 @@ header .navbar-default .navbar-header {
 	margin: 0px;
 	color: #607087;
 	font-size: 16px;
-	padding-right: 85px;
+	padding-right: 10px;
 	line-height: 28px;
 }
 
 .buyer-box {
-	padding: 60px 0px 40px 0px;
+	padding: 40px 0px 40px 0px;
 	background: rgba(255, 255, 255, 1);
-	margin-top: 65px;
+	margin-top: 40px;
 }
 
 .supplier {
-	padding: 60px 0px 40px 0px;
+	padding: 40px 0px 40px 0px;
 	background: rgba(255, 255, 255, 1);
-	margin-top: 65px;
+	margin-top: 40px;
 }
 
 .left-buyer {}
@@ -814,8 +819,8 @@ header .navbar-default .navbar-header {
 }
 
 .right-buyer {
-	padding-top: 52px;
-	padding-left: 65px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .right-buyer h4 {
